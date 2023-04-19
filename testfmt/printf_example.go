@@ -1,10 +1,10 @@
-package main
+package testfmt
 
 import (
 	"fmt"
 )
 
-func main() {
+func PrintfExample() {
 	const name, age = "Kim", 22
 	fmt.Printf("%s is %d years old.\n", name, age)
 
